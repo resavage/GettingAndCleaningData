@@ -71,7 +71,7 @@ Resulting "Tidy Data"
 ---------------------
 `tidydataresults.txt`  
 **Description:** - "Tidy Data" format requested in the Course Project documentation.   
-**Format:**  Text file, comma (",") delimited, headings in row 1.  
+**Format:**  Text file, space delimited, headings in row 1.  
 **Element(s):**  
 **IMPORTANT** - The assignment was unclear as to the filtering for "mean and standard deviation" measurements, especially the various "mean()", "meanFreq" and "angle(...Mean)" measurements.  I chose to specifically look for "mean()" and "std()" features, therefore I have 66 measurement columns.
 
