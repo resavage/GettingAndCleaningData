@@ -25,7 +25,7 @@ Other than the normal **R** and **R Studio** setup, there are no specific Packag
 * **y_test.txt** - Test Activity/Observation mapping.
 * **y_train.txt** - Training Activity/Observation mapping.
 
-Additionally, the following field should be copied to the "Working Directory" to assist with the measurement selection:
+Additionally, the following file should be copied to the "Working Directory" to assist with the measurement selection:
 
 * **features.txt** - List of features (measurement names).
 
