@@ -40,27 +40,27 @@ Functions
 `LoadData(<file>)`  
 **Description:** Loads the requested file into a data frame  
 **Parameters:**  
-*<file>* - Name of file to be loaded.  
+`<file>` - Name of file to be loaded.  
 **Returns:** Data frame containing the data from the file.  
 
 `GetRelevantFeatures(<data frame>, <search criteria>)`  
 **Description:** Given the supplied Feature data (column index and description), this function will return a data frame containing the index and description of any feature that has a description that contains the search string.  **NOTE** - The filter will be looking for "exact" matches of the search criteria.  
 **Parameters:**  
-*<data frame>* - Feature Data to be searched.  
-*<search criteria>* - List of search criteria (terms).  
+`<data frame>` - Feature Data to be searched.  
+`<search criteria>` - List of search criteria (terms).  
 **Returns:** Data frame containing the relevant (filtered) features.  
 
 `AddActivityLabels(<data frame>)`  
 **Description:** Returns a new data frame based on the contents of the passed data frame.  The new data frame will include a descriptive Activity name.  
 **Parameters:**  
-*<data frame>* - Activity mapping data frame.  
+`<data frame>` - Activity mapping data frame.  
 **Returns:** Data frame containing the updated information.
 
 `NameDataColumns(<data frame>)`  
 **Description:** Sets the column names of the supplied data frame.  Any changes to the column filtering 
 logic will likely require changes in this function.  
 **Parameters:**  
-*<data frame>* - Input data frame.  
+`<data frame>` - Input data frame.  
 **Returns:** None  
 
 
