@@ -30,7 +30,7 @@ run_analysis <- function() {
     
     ###----------------------------------
     ### Step 2 - Filter to retrieve only the mean and standard 
-    ### deviation coumns but determining 
+    ### deviation columns. 
     ###----------------------------------
     feature.data <- LoadData(features)
     colnames(feature.data) <- c("index", "featureName")

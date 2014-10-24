@@ -1,8 +1,8 @@
 GetRelevantFeatures <- function(feature.data, searchCrit) {
     ### GetRelevantFeatures(data frame, search criteria) - Given the 
-    ### supplied Feature data (coumn ndex and description), this
+    ### supplied Feature data (column index and description), this
     ### function will return a data frame containing the index and 
-    ### description of any fearute that has a description that contains
+    ### description of any feature that has a description that contains
     ### the search string.  NOTE - The filter will be looking for "exact"
     ### matches of the search criteria.
     ###
@@ -11,7 +11,7 @@ GetRelevantFeatures <- function(feature.data, searchCrit) {
     ###  - searchCrit - List of search criteria (terms).
     ###
     ### Returns:
-    ###  - Data frame containing the relevant (filteres) features.
+    ###  - Data frame containing the relevant (filtered) features.
     ###
     
     results = c()

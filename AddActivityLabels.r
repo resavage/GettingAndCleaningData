@@ -1,7 +1,6 @@
 AddActivityLabels <- function(inData) {
     ### AddActivityLabels(data frame) - Returns a new data frame based on 
-    ### the contents of the passed data frame.  The new data frame  will 
-    ### include a descriptive Activity name.
+    ### the contents of the passed data frame.
     ###
     ### Parameters:
     ###  - inData - Source data frame.  I opted not to alter the passed
