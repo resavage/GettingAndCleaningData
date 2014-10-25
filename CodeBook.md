@@ -1,6 +1,6 @@
 Code Book
 =========
-The goal of the "Getting And Cleaning Data" course project is to generate a "tidy data" file containing the averages for all relevant value columns broken down by a multiple category combinations.  The source data consists of measurement files containing numerous value columns (many of which will not be used) and separate Activity and Subject (observation category) files.  Additionally, the files are also partitioned between "Test" and "Training" data. 
+The goal of the "Getting And Cleaning Data" course project is to generate a "tidy data" file containing the averages for all relevant value columns broken down by multiple category combinations.  The source data consists of measurement files containing numerous value columns (many of which will not be used) and separate Activity and Subject (observation category) files.  Additionally, the files are also partitioned between "Test" and "Training" data. 
 
 Raw Source Data
 ---------------
