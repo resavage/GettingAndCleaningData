@@ -76,7 +76,7 @@ Resulting "Tidy Data"
 **IMPORTANT** - The assignment was unclear as to the filtering for "mean and standard deviation" measurements, especially the various "mean()", "meanFreq" and "angle(...Mean)" measurements.  I chose to specifically look for "mean()" and "std()" features, therefore I have 66 measurement columns.
 
 1. **ActivityName** - Character, values are "Walking", "Walking (Upstairs)", "Walking (Downstairs)", "Sitting", "Standing" and "Laying".
-2. **SubjectID** - Integer, Subject's ID.  Values in datasets were 1 thry 30.
+2. **SubjectID** - Integer, Subject's ID.  Values in datasets were 1 thru 30.
 3. **BodyAccelerometer-mean-Xaxis** - Numeric, Average of all "BodyAccelerometer-mean-Xaxis" columns for the "ActivityName"/"SubjectID" combination.
 4. **BodyAccelerometer-mean-Yaxis** - Numeric, Average of all "BodyAccelerometer-mean-Yaxis" columns for the "ActivityName"/"SubjectID" combination.
 5. **BodyAccelerometer-mean-Zaxis** - Numeric, Average of all "BodyAccelerometer-mean-Zaxis" columns for the "ActivityName"/"SubjectID" combination.
